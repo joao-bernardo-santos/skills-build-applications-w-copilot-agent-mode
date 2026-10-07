@@ -56,5 +56,5 @@ const errorHandler: ErrorRequestHandler = (error, _request, response, _next) => 
 app.use(errorHandler);
 
 app.listen(port, '0.0.0.0', () => {
-  console.log(`OctoFit API listening on port ${port}`);
+  console.log(`OctoFit API listening on port ${port} at ${apiBaseUrl}`);
 });
